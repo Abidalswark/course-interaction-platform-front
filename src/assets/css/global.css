@@ -1,0 +1,24 @@
+#app {
+  min-width: 100%;
+  min-height: 100%;
+  font-family: '黑体';
+  color:#000000;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+html {
+  font-size: 16px;
+  background-color: #f4f8fa;
+  font-family: '黑体';
+  color:#000000;
+}
+
+@media screen and (height: 1080px) {
+  html {
+    font-size: 17.5px;
+  }
+}
